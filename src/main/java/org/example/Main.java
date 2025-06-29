@@ -19,6 +19,19 @@ public class Main {
         Robin robin = new Robin();
         entities.add(robin);
 
+        // flower
+        Daisy daisy = new Daisy();
+        entities.add(daisy);
+        Rose rose = new Rose();
+        entities.add(rose);
+
+        // tree
+        Oak oak = new Oak();
+        entities.add(canary);
+        Pine pine = new Pine();
+        entities.add(pine);
+
+
         for (Entity entity : entities) {
             System.out.println(entity);
         }
