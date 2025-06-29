@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Entity> entities = new ArrayList<Entity>();
+        List<LivingThing> entities = new ArrayList<LivingThing>();
 
         // fish
         Salmon salmon = new Salmon();
@@ -30,6 +30,11 @@ public class Main {
         entities.add(canary);
         Pine pine = new Pine();
         entities.add(pine);
+
+
+        for (LivingThing entity : entities) {
+            System.out.println(entity);
+        }
 
 
     }

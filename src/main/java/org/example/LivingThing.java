@@ -1,11 +1,28 @@
 package org.example;
 
-public abstract class LivingThing extends Entity {
+import java.util.ArrayList;
+import java.util.List;
 
+public abstract class LivingThing{
+    private String name;
+    private List<String> properties = new ArrayList<>();
     LivingThing(String name) {
-        super(name);
-        this.addProperty("Can grow");
-        this.addProperty("Is alive");
+        this.name = name;
+        properties.add("Can grow");
+        properties.add("Is alive");
+    }
+
+    public void addProperty(String property) {
+        properties.add(property);
+    }
+
+    public boolean hasProperty(String property) {
+        return properties.contains(property);
+    }
+
+    @Override
+    public String toString() {
+        return name+": \n"+properties.toString();
     }
 
 }
