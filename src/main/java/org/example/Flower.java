@@ -7,6 +7,5 @@ public abstract class Flower extends Growing {
         addProperty("Has leaves");
         addProperty("Is beautiful");
         addTag("Flower");
-
     }
 }
