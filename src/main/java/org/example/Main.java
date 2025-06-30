@@ -31,13 +31,17 @@ public class Main {
         Pine pine = new Pine();
         entities.add(pine);
 
-
+        // print all properties and tags ->
         for (LivingThing entity : entities) {
             System.out.println(entity);
         }
 
+        // example ->
+        System.out.println("salmon is a fish? ");
+        System.out.println(salmon.hasTag("Fish") + "\n");
 
-
+        System.out.println("pine is a fish? ");
+        System.out.println(pine.hasTag("Fish"));
 
     }
 }
