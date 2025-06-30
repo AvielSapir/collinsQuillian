@@ -5,7 +5,8 @@ public abstract class Tree extends Growing {
         super(name);
         addProperty("Has shell");
         addProperty("Has branches");
-        addProperty("is big");
+        addProperty("Is big");
+        addTag("Tree");
 
     }
 }

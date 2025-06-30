@@ -7,5 +7,6 @@ public abstract class Bird extends Animal {
         addProperty("Has feathers");
         addProperty("Has wings");
         addProperty("Can fly");
+        addTag("Bird");
     }
 }

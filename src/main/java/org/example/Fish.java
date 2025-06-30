@@ -6,6 +6,7 @@ public abstract class Fish extends Animal {
         addProperty("Has dandruff");
         addProperty("Can swim");
         addProperty("Has gills");
+        addTag("Fish");
 
     }
 }

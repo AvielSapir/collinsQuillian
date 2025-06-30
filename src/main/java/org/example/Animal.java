@@ -5,5 +5,6 @@ public abstract class Animal extends LivingThing{
         super(name);
         addProperty("Can move");
         addProperty("Has skin");
+        addTag("Animal");
     }
 }
